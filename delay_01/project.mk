@@ -2,7 +2,7 @@
 # Project Customization
 # #############################################################################
 
-PROJECT = delayexp01
+PROJECT = delay01
 
 UCSRC = main.c
 
