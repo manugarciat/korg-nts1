@@ -30,7 +30,7 @@ void DELFX_PROCESS(float *xn, uint32_t frames)
   for (uint32_t i = 0; i < frames * 2; i++)
   {
     s_delay_ram[z++] = xn[i];
-    if (z > BUFFER_LEN - 1)
+    if (z > BUFFER_LEN - 2)
       z = 0;
   }
 
