@@ -2,7 +2,7 @@
 # Project Customization
 # #############################################################################
 
-PROJECT = stopfx
+PROJECT = delayexp01
 
 UCSRC = main.c
 
